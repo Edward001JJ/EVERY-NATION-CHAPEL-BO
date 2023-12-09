@@ -1,25 +1,18 @@
-h2{
- font-family: Sans-serif; 
- font-size: 24px;     
- font-style: normal; 
- font-weight: bold; 
- color:chocolate;
- text-align: center; 
+*{
+ margin-top: 0%;
+padding-top: 0%;
 }
 
-table{
- font-family: verdana; 
- color:white; 
- font-size: 16px; 
- font-style: normal;
- font-weight: bold;
- background: linear-gradient(to bottom, #00008b 0%, #ffd700 100%);  
- border-collapse: collapse; 
- border: 4px solid #000000;
- border-color: skyblue;
+form{
+ width: 40%; 
+ margin-left: 27%; 
+ margin-top: 10px; 
+ border: 4px solid;
+ border-color: darkblue;
 }
-table.inner{
- border: 10px
+head{
+ background-color: #00008b;
+height: 50px;
 }
 input[type=text], input[type=email], input[type=number]{
  width: 90%;
