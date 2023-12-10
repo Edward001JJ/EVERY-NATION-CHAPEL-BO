@@ -1,42 +1,61 @@
 *{
- margin-top: 0%;
-padding-top: 0%;
+    margin:0%;
+    padding:0%;
 }
 
 form{
- width: 40%; 
- margin-left: 27%; 
- margin-top: 10px; 
- border: 4px solid;
- border-color: darkblue;
+    width:40%;
+    margin-left: 21%;
+    margin-top: 10px;
+    border: solid;
+    border-color: darkblue;
 }
+
 heading{
- background-color: #00008b;
-height: 50px;
+    background-color: #00008b;
+    height:50px;
+    padding-top: 20px;
+    color: #ffff;
+    text-align: center;
 }
-input[type=text], input[type=email], input[type=number]{
- width: 90%;
- padding: 6px 12px;
- margin: 5px 0;
- box-sizing: border-box;
- text-align: center;
+
+.note{
+    display: flex;
+    flex-direction: rows;
 }
-input[type=submit], input[type=reset]{
- width: 15%;
- padding: 8px 12px;
- margin: 5px 0;
- box-sizing: border-box;
- color: white;
- cursor: pointer;
- background-color: darkblue;
+
+.note label{
+    padding-left: 15px;
+    font-size: 25px;
+    font-weight: bolder;
 }
-input[type=submit]:hover, input[type=reset]:hover{
-	background-color: gold;
-	color: white;
+
+.note input{
+    margin-left: 15px;
+    height: 35px;
+    width:90%;
+    border: 5px solid;
+    text-align: center;
 }
-.wrap{
-	margin-top: 10%;
+
+.note input[type=submit]{
+    margin-left: 15px;
+    height: 35px;
+    width: 90%;
+    color: #ffff;
+    border: 4px solid;
+    border-color: #ffd700;
+    margin-top: 15px;
+    text-align: center;
+    background-color: darkblue;
+    cursor:pointer;
 }
-.footer{
-	color: darkblue;
+
+footer{
+    background-color: #ffd700;
+    margin-top: 15px;
+    padding-top: 15px;
+    height: 30px;
+    text-align: center;
+    font-size: 29px;
 }
